@@ -1,0 +1,25 @@
+### Create todo
+
+POST http://localhost:8080/todos
+Content-Type: application/json
+
+{
+  "name": "Study React",
+  "isDone": false
+}
+
+### Get all todos
+
+GET http://localhost:8080/todos
+Content-Type: application/json
+
+### Update todo
+
+PUT http://localhost:8080/todos
+Content-Type: application/json
+
+{
+  "id": "1",
+  "name": "Study React JS and Next JS",
+  "isDone": false
+}

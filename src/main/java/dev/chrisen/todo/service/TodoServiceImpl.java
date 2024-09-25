@@ -32,7 +32,7 @@ public class TodoServiceImpl implements TodoService {
 
   @Override
   public List<TodoDto> getTodos() {
-    List<TodoEntity> entities = repository.findAll();
+    List<TodoEntity> entities = repository.findAllByOrderByIdAsc();
 
     return entities.stream().map(entity -> mapper.map(entity, TodoDto.class)).collect(Collectors.toList());
   }

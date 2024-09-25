@@ -6,5 +6,5 @@ import lombok.Data;
 public class TodoDto {
   private long id;
   private String name;
-  private boolean isDone;
+  private boolean done;
 }

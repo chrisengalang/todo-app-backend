@@ -4,8 +4,8 @@ POST http://localhost:8080/todos
 Content-Type: application/json
 
 {
-  "name": "Study React",
-  "isDone": false
+  "name": "Cook beef with mushroom",
+  "done": false
 }
 
 ### Get all todos
@@ -19,7 +19,7 @@ PUT http://localhost:8080/todos
 Content-Type: application/json
 
 {
-  "id": "1",
-  "name": "Study React JS and Next JS",
-  "isDone": false
+  "id": "2",
+  "name": "Study Java and Spring Boot",
+  "isDone": true
 }
